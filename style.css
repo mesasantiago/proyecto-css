@@ -21,6 +21,29 @@ header, footer{
     gap: 30px;
 }
 
+nav{
+    background-color: rgba(255, 136, 0, 0.73);
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a{
+    background-color: rgb(224, 224, 224);
+    color: #700f0f;
+    border-radius: 15px;
+    padding: 8px;
+    text-decoration: none;
+    box-shadow: 2px 5px 6px 3px rgb(138, 105, 105);
+}
+
+nav a:hover{
+    background-color: #3a3838;
+    color: #e20808;
+    transform: scale(1.2);
+
+}
 
 img{
     width: 100%;
@@ -53,9 +76,16 @@ img{
 
 .col2{
     border: 1px dashed rgb(218, 218, 100);
-    width:  450px;
+    width:  47%px;
     box-shadow: 5px 5px 5px 5px rgb(173, 173, 173);
     padding: 20px;
+}
+.pequeña{
+    width: 80%;
+}
+
+.col3{
+    width: 30%;
 }
 
 body{
@@ -77,4 +107,18 @@ body{
 
 #dife{
     border-radius: 50%;
+}
+.imagen{
+    width: 25%;
+    margin: auto;
+}
+
+.imagen img{
+    border-radius: 50%;
+    border: 8px solid rgba(255, 136, 0, 0.73);
+}
+
+.imagen img:hover{
+    filter: contrast(9);
+    transform: scale(0.7);
 }
