@@ -122,3 +122,40 @@ body{
     filter: contrast(9);
     transform: scale(0.7);
 }
+
+.img_productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.img_productos img {
+    width: 200px;
+    border-radius: 20px;
+  }
+
+#producto1{
+    filter: brightness(2);
+    transform: scale(1.1);
+}
+
+#producto2{
+    filter: grayscale(0.7);
+    transform: scale(0.9);
+}
+
+#producto3{
+    filter: drop-shadow(1);
+    transform: scale(0.9);
+}
+
+#producto4{
+    filter: invert(1);
+    transform: scale(0.9);
+}
+
+#producto5{
+    filter: opacity(70%);
+    transform: scale(0.9);
+}
